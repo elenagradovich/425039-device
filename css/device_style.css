@@ -2,7 +2,7 @@ body {
 	font-size: 15px;
 	color: #000000;
 	font-weight: normal;
-	font-family: "OpenSans" sans-serif;
+	font-family: "OpenSans" Arial sans-serif;
 	line-height: 20px;
 }
 
@@ -10,31 +10,33 @@ body {
 	font-size: 48px;
 	color: #000000;
 	font-weight: bold;
-	font-family: "Gilroy" sans-serif;
+	font-family: "Gilroy" Arial sans-serif;
 	line-height: 1;
 }
 
-.logo-link{
+.logo-link {
 	font-size: 48px;
 	color: #ffc600;
 	font-weight: bold;
-	font-family: "Gilroy" sans-serif;
+	font-family: "Gilroy" Arial sans-serif;
 	line-height: 1;
 }
 
-h1, 
-h2 .info_title{
+h1 .page-title, 
+h2 .info-title {
 	font-size: 47px;
 	color: #000000;
 	font-weight: bold;
-	font-family: "Gilroy" sans-serif;
+	font-family: "Gilroy" Arial sans-serif;
 	line-height: 1;
 }
 
-p {
+.info-left p,
+.info-right p,
+p .phone {	
 	font-size: 15px;
 	color: #464646;
 	font-weight: normal;
-	font-family: "OpenSans" sans-serif;
+	font-family: "OpenSans" Arial sans-serif;
 	line-height: 20px;
 }

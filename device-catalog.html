@@ -3,21 +3,23 @@
     <head>
         <title>HTML Academy:DEVICE</title>
         <meta charset="utf-8">  
-        <link href="css/device_style.css" rel="stylesheet">
-        <link href="css/device_normalize.css" rel="stylesheet">       
+        <link href="css/device-style.css" rel="stylesheet">
+        <link href="css/device-normalize.css" rel="stylesheet">       
     </head>
     <body>
         <div class="container">
-            <header class="header">
-                <div class="logo-top-catalog">                
-                    <a href="device-index.html">DEVICE</a>                
+            <header class="header catalog">
+                <div class="logo-top">                
+                    <a href="device-index.html">DEVICE</a>        
                 </div>
                 <nav class="navigation">
-                    <div class="navigation-top">                        
-                        <form action="#" method="get">                         
-                            <input type="search" name="search" placeholder="Поиск по сайту">
-                            <input type="submit" value="Найти">               
-                        </form>                         
+                    <div class="navigation-top">     
+                        <div class="search">
+                            <form action="#" method="get">        
+                                <input type="search" name="search" placeholder="Поиск по сайту">
+                                <input type="submit" value="Найти">   
+                            </form>    
+                        </div>                             
                         <div class="user-info">
                             <a href="#">Валентин Петухов</a>
                             <a href="#">Выйти</a>                            
@@ -73,7 +75,7 @@
                 </nav>                      
             </header>
 
-            <main>        
+            <main class=" main catalog">                        
                 <h1 class="page-title">Моноподы для селфи</h1>
                 <ul class="monopod-breadcrumbs">
                     <li>
@@ -151,66 +153,67 @@
                                     <a href="#"></a> 
                                 </li>
                             </ul>
+                            <div class="articles">
+                                <article class="monopod-item">                       
+                                    <div class="new">NEW</div>                          
+                                    <div class="monopod-item-photo">
+                                        <img src="img/item-1.jpg" alt="Любительская селфи-палка" width="360" height="380">               
+                                    </div>
+                                    <div class="add-link">
+                                            <a class="add-link-basket" href="#">В КОРЗИНУ</a>
+                                            <a class="add-link-compare" href="#">Добавить к сравнению</a>
+                                        </div>                          
+                                    <div class="monopod-item-info">                       
+                                        <a class="monopod-link" href="#">Любительская селфи-палка</a>                                                        
+                                        <span class="monopod-price">500 РУБ.</span>
+                                    </div>                            
+                                </article>
 
-                            <article class="monopod-item">                       
-                                <div class="new">NEW</div>                          
-                                <div class="monopod-item-photo">
-                                    <img src="img/item-1.jpg" alt="Любительская селфи-палка" width="360" height="380">               
-                                </div>
-                                <div class="add-link">
-                                        <a class="add-link-basket" href="#">В КОРЗИНУ</a>
-                                        <a class="add-link-compare" href="#">Добавить к сравнению</a>
-                                    </div>                          
-                                <div class="monopod-item-info">                       
-                                    <a class="monopod-link" href="#">Любительская селфи-палка</a>                                                        
-                                    <span class="monopod-price">500 РУБ.</span>
-                                </div>                            
-                            </article>
+                                <article class="monopod-item">
+                                    <div class="new">NEW</div>
+                                    <div class="monopod-item-photo">
+                                        <img src="img/item-2.jpg" alt="Профессиональная селфи-палка" width="360" height="380">                                
+                                    </div>
+                                    <div class="add-link">
+                                            <a class="add-link-basket" href="#">В КОРЗИНУ</a>
+                                            <a class="add-link-compare" href="#">Добавить к сравнению</a>
+                                    </div>                                                                                           
+                                    <div class="monopod-item-info">
+                                        <a class="monopod-link" href="#">Профессиональная селфи-палка</a>                                            
+                                        <span class="monopod-price">1 500 РУБ.</span> 
+                                    </div>               
+                                </article>
 
-                            <article class="monopod-item">
-                                <div class="new">NEW</div>
-                                <div class="monopod-item-photo">
-                                    <img src="img/item-2.jpg" alt="Профессиональная селфи-палка" width="360" height="380">                                
-                                </div>
-                                <div class="add-link">
-                                        <a class="add-link-basket" href="#">В КОРЗИНУ</a>
-                                        <a class="add-link-compare" href="#">Добавить к сравнению</a>
-                                </div>                                                                                           
-                                <div class="monopod-item-info">
-                                    <a class="monopod-link" href="#">Профессиональная селфи-палка</a>                                            
-                                    <span class="monopod-price">1 500 РУБ.</span> 
-                                </div>               
-                            </article>
+                                <article class="monopod-item">
+                                    <div class="new">NEW</div>
+                                    <div class="monopod-item-photo">
+                                        <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка" width="360" height="380">                                                                                             
+                                    </div> 
+                                    <div class="add-link">
+                                            <a class="add-link-basket" href="#">В КОРЗИНУ</a>
+                                            <a class="add-link-compare" href="#">Добавить к сравнению</a>
+                                    </div>                              
+                                    <div class="monopod-item-info">
+                                        <a class="monopod-link" href="#">Непотопляемая селфи-палка</a>                                                         
+                                        <span class="monopod-price">2 500 РУБ.</span>    
+                                    </div>            
+                                </article>
 
-                            <article class="monopod-item">
-                                <div class="new">NEW</div>
-                                <div class="monopod-item-photo">
-                                    <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка" width="360" height="380">                                                                                             
-                                </div> 
-                                <div class="add-link">
-                                        <a class="add-link-basket" href="#">В КОРЗИНУ</a>
-                                        <a class="add-link-compare" href="#">Добавить к сравнению</a>
-                                </div>                              
-                                <div class="monopod-item-info">
-                                    <a class="monopod-link" href="#">Непотопляемая селфи-палка</a>                                                         
-                                    <span class="monopod-price">2 500 РУБ.</span>    
-                                </div>            
-                            </article>
-
-                            <article class="monopod-item">
-                                <div class="new">NEW</div>
-                                <div class="monopod-item-photo">
-                                    <img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»" width="360" height="380">                                
-                                </div>
-                                <div class="add-link">
-                                        <a class="add-link-basket" href="#">В КОРЗИНУ</a>
-                                        <a class="add-link-compare" href="#">Добавить к сравнению</a>
-                                </div>  
-                                 <div class="monopod-item-info">
-                                    <a class="monopod-link" href="#">Селфи-палка «Следуй за мной»</a>                                                        
-                                    <span class="monopod-price">2 500 РУБ.</span> 
-                                </div>               
-                            </article>                                                
+                                <article class="monopod-item">
+                                    <div class="new">NEW</div>
+                                    <div class="monopod-item-photo">
+                                        <img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»" width="360" height="380">                                
+                                    </div>
+                                    <div class="add-link">
+                                            <a class="add-link-basket" href="#">В КОРЗИНУ</a>
+                                            <a class="add-link-compare" href="#">Добавить к сравнению</a>
+                                    </div>  
+                                     <div class="monopod-item-info">
+                                        <a class="monopod-link" href="#">Селфи-палка «Следуй за мной»</a>                                                        
+                                        <span class="monopod-price">2 500 РУБ.</span> 
+                                    </div>               
+                                </article> 
+                            </div>                                               
                         </div>
                         <div class="content-selection">                  
                             <ul class="pages-list">
@@ -235,7 +238,7 @@
                 </div>
             </main>
         </div>
-        <footer class="footer">
+        <footer class="footer-catalog">
             <div class="container">
                 <section class="footer-first-line">                     
                     <a class="logo-link" href="device-index.html">DEVICE</a>   
@@ -272,7 +275,7 @@
                     <a class="social-btn social-btn-fb" href="#"></a>
                     <a class="social-btn social-btn-ins" href="#"></a>  
                     <a class="logo-academy" href="https://htmlacademy.ru/intensive/htmlcss">
-                        <img src="img/htmlacademy.png" alt="htmlacademy.ru" width="27px" height="34">
+                        <img src="img/htmlacademy.png" alt="htmlacademy.ru" width="27" height="34">
                     </a>                    
                 </section>
             </div>                               
